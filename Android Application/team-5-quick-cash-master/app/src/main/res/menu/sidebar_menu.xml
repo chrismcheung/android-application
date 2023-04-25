@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn= "navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="@string/profile" />
+        <item
+            android:id="@+id/nav_post"
+            android:icon="@drawable/ic_jobpost"
+            android:title="@string/postjobs" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_search"
+            android:title="@string/searchjobs" />
+        <item
+            android:id="@+id/nav_mytasks"
+            android:icon="@drawable/ic_jobpost"
+            android:title="@string/mytasks" />
+    </group>
+
+    <item android:title="@string/change_modes">
+        <menu>
+            <item
+                android:id="@+id/nav_switch"
+                android:icon="@drawable/ic_switch"
+                android:title="@string/menu_switch" />
+        </menu>
+    </item>
+    <item android:title = "Notification">
+        <menu>
+            <item android:id = "@+id/nav_notify"
+                android:icon="@android:drawable/stat_notify_chat"
+                android:title = "Notifications"/>
+        </menu>
+    </item>
+    <item android:title = "Dashboard">
+        <menu>
+            <item android:id = "@+id/nav_home"
+                android:icon="@drawable/ic_home"
+                android:title = "Home"/>
+        </menu>
+    </item>
+
+
+
+
+</menu>

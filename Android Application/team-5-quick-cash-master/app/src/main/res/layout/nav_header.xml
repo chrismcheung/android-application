@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_height="176dp"
+    android:background="@color/colorPrimaryDark"
+    android:gravity="bottom"
+    android:padding= "16dp"
+    android:layout_width="match_parent"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="92dp"
+        android:layout_height="86dp"
+        android:src="@drawable/ic_home" />
+
+    <TextView
+        android:id="@+id/navWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="Welcome" />
+
+    <TextView
+        android:id="@+id/navWelcomeEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

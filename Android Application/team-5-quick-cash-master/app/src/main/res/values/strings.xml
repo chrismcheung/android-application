@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Quick Cash Team 5</string>
+
+    <string name="navigaction_drawer_open"> Open Navigation Drawer</string>
+    <string name="navigaction_drawer_close"> Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="profile">Profile</string>
+    <string name="searchjobs">Search Jobs</string>
+    <string name="change_modes">Change Modes</string>
+    <string name="menu_switch">Switch</string>
+    <string name="postjobs">Post Job</string>
+    <string name="mytasks">My Tasks</string>
+    <string name="JobTitle">Title</string>
+    <string name="JobDeadline">Deadline</string>
+    <string name="JobPayment">Payment</string>
+    <string name="JobLocation">Location</string>
+    <string name="JobCreateDate">Created</string>
+    <string name="JobDuration">Hours Estimated</string>
+    <string name="JobEquip">Equipment</string>
+    <string name="JobPicture">Pictures</string>
+    <string name="title_activity_job_list_display">JobListDisplay</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>
